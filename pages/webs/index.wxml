@@ -1,0 +1,4 @@
+<view class="container">
+  <web-view src="{{urls}}" ></web-view>
+  <!-- <button formType="button" class="weui-toast__content" bindtap='search'>搜索</button>     -->
+</view>

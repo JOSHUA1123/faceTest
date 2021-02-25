@@ -1,0 +1,20 @@
+
+
+.bg{
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_match%2F0%2F12148008023%2F0.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1616316833&t=6edbed7444f99420ff219179cba91d61');
+  background-repeat:no-repeat; 
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+ }
+ .img{
+   display:flex;
+   height: 100%;
+   align-content: center;
+   justify-content: center;
+ }
+ 
+ page{
+ 
+  height:100%
+   
+  }

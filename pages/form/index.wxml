@@ -1,0 +1,47 @@
+<view class="page">
+	<view class="weui-form">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">考勤信息登记</h2>
+			<view class="weui-form__desc">请按照提示录入您的个人信息</view>
+		</view>
+		<view class="weui-form__control-area">
+			<view class="weui-cells__group weui-cells__group_form">
+				<!-- <view class="weui-cells__title">登记表单</view> -->
+				<view class="weui-cells weui-cells_form">
+
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd">						
+                            <label class="weui-label">昵称</label>
+                        </view>
+						<view class="weui-cell__bd">
+							<input class="weui-input" bindinput="getUserName" placeholder="填写昵称" placeholder-class="weui-input__placeholder" />
+						</view>
+						<text class="err-tip" wx:if="{{errTip}}">请输入昵称</text>
+					</view>
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd">							
+                            <label class="weui-label">联系方式</label>
+                        </view>
+						<view class="weui-cell__bd">
+							<input class="weui-input" bindinput="getPhoneNumber"  placeholder="填写您的联系方式" type="number" placeholder-class="weui-input__placeholder" />
+						</view>
+						<text class="err-tip" wx:if="{{errTip}}">请输入联系方式</text>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view class="weui-form__opr-area">
+			<a class="weui-btn weui-btn_primary" bindtap="nextStep">下一步</a>
+		</view>
+
+		<view class="weui-form__extra-area">
+			<view class="weui-footer">
+				<view class="weui-footer__links">
+					<a href="javascript:" class="weui-footer__link">开课吧</a>
+				</view>
+				<view class="weui-footer__text">Copyright © 2008-2019 weui.io</view>
+			</view>
+		</view>
+	</view>
+</view>

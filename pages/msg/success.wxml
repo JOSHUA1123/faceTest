@@ -1,0 +1,19 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-msg">
+		<view class="weui-msg__icon-area"><i class="weui-icon-success weui-icon_msg"></i></view>
+		<view class="weui-msg__text-area">
+			<h2 class="weui-msg__title">{{msg}}成功</h2>
+			<view class="weui-msg__desc">恭喜,您已{{msg}}成功!</view>
+		</view>
+
+
+		<view class="weui-msg__extra-area">
+			<view class="weui-footer">
+				<view class="weui-footer__links">
+					<a class="weui-footer__link">开课吧</a>
+				</view>
+				<view class="weui-footer__text">Copyright &copy; 2008-2016 weui.io</view>
+			</view>
+		</view>
+	</view>
+</view>

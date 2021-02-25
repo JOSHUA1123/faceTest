@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/webs/index",
+    "pages/main/index",
+   
+    "pages/regist/index",
+    "pages/login/index",
+    "pages/form/index",
+    "pages/msg/success"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    },
+    "scope.userInfo": {
+      "desc": "你的信息将用于考勤信息登记和打卡"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "个人工资条",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

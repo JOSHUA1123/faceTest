@@ -1,0 +1,27 @@
+<view class="container">
+  <text class="title">考勤打卡</text>
+  <view class="main">
+    <view class="cover">
+      <view class="line"></view>
+    </view>
+    <camera device-position="front" resolution="low" frame-size="small" flash="off" binderror="error"
+      style="width: 100%; height: 300px;"></camera>
+  </view>
+  
+  <view class="time-tip">
+    <view>
+      距离上班时间还有:<text>{{remain_time}}</text>
+    </view>
+  </view>
+
+  <view class="dis-tip">
+    <view>
+      距离公司还有:<text>{{distance}} KM</text>
+    </view>
+  </view>
+
+  <view class="footer">
+    <text bindtap="toRegist"> 注册 </text>
+  </view>
+
+</view>

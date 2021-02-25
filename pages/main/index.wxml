@@ -1,0 +1,6 @@
+<view class="img" style='width:100%;min-height:100%;background-image:url("/public/style/001.jpg");background-size:100% 100%;'>
+  <!-- <view class="bg">
+  </view> -->
+  <!-- <image src="/public/style/001.jpg" ></image> -->
+  <label style="color: red;size: a3;margin-top: 100px;font-size: xx-large;">系统异常！！！</label>
+</view>
